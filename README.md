@@ -15,6 +15,8 @@ git branch - Verifica em qual branch vc está
 
 git checkout nome do branch ou master - Alternar entre os branchs
 
+git checkout HEAD nome do arquivo.extensão - Esquece todas as alterações realizadas e não commitadas e volta pra versão anterior
+
 git add -A - Adiciona todos os itens pendentes de trackeamento
 
 git add nome do arquivo - Adiciona um arquivo específico
@@ -28,3 +30,9 @@ git reset --hard - Retorna para o estado escolhido, retirando as modificações 
 tree /f - mostra uma árvore dos arquvios que contém na pasta
 
 cd .. - Volta uma pasta
+
+git diff - Visualiza o que foi alterado no arquivo
+
+git diff --name-only - Mostra em quais aquivos houveram alterações 
+
+git diff nome do arquivo.extensão  - Mostra as modificações de um arquivo específico
