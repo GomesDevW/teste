@@ -11,6 +11,8 @@ git commit -am "descrição" - Enviar para o repositório e branch
 
 git branch nome do branch - Criar branch
 
+git checkout -b nome - Criar uam branch e ir para ela
+
 git branch - Verifica em qual branch vc está
 
 git checkout nome do branch ou master - Alternar entre os branchs
@@ -36,3 +38,5 @@ git diff - Visualiza o que foi alterado no arquivo
 git diff --name-only - Mostra em quais aquivos houveram alterações 
 
 git diff nome do arquivo.extensão  - Mostra as modificações de um arquivo específico
+
+git push -u origin master - mandar para o repositorio remoto
