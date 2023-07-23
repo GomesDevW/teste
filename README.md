@@ -47,5 +47,13 @@ git push origin :"nome do branch" - remover um branch remoto
 
 git branch -D "nome do branch" - remover um branch local
 
+git clone "link do repositorio" - Clona um repositório 
+
+git merge "nome da branch" - mescla a branch escolhida com a branch atual
+
+git remote -v - Vê qual o nome do repositório
+
+Para contribuir com um projeito no github, devemos clicar em "FORK" para clonar o repositório automaticamente para o seu perfil do github. Após isso, damos um pull para trabalhar no repositório local, realizamos as alterações, dps damos push para atualizar o repositório remoto. Depois podemos ir fazer o new pull request e enviar as modificações para o dono.
+
 
 Obs.: É recomendado dar um pull no repositório remoto antes de dar um push para o repositório remoto. Assim, garante que você mandou os arquivos mais atualizados
