@@ -1,5 +1,9 @@
 
-gitk --all - Mostra de maneira visual os commits e branches do repositório
+git --all - Mostra de maneira visual os commits e branches do repositório
+
+git remote add origin "link" - vincular o repositório local com o remoto
+ou
+git clone "link do repositorio" - Clona um repositório 
 
 git init - Criar o repositório
 
@@ -39,7 +43,7 @@ git diff --name-only - Mostra em quais aquivos houveram alterações
 
 git diff "nome do arquivo.extensão"  - Mostra as modificações de um arquivo específico
 
-git push -u origin master - mandar para o repositorio remoto
+git push -u origin master - mandar para o repositorio remoto (o -u só coloca da primeira vez)
 
 git revert --no-edit "codigo do commit" - reverte alterações realizadas e commitadas e commita de novo.
 
@@ -47,7 +51,7 @@ git push origin :"nome do branch" - remover um branch remoto
 
 git branch -D "nome do branch" - remover um branch local
 
-git clone "link do repositorio" - Clona um repositório 
+
 
 git merge "nome da branch" - mescla a branch escolhida com a branch atual
 
